@@ -193,7 +193,7 @@ function allDone() {
             let newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            window.open("/Scores.html");
+            window.location.assign("/Scores.html");
         }
         
     });
